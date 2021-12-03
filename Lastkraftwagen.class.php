@@ -10,11 +10,7 @@ class Lastkraftwagen extends Auto{
                 .$this->getGeschwindigkeit() ."<br />";
         }
         
-        else{
-            $this->setGeschwindigkeit($this->hoechstgeschwindigkeit);
-            echo "Die maximale Geschwindigkeit des LKW beträgt "
-                .$this->hoechstgeschwindigkeit ."<br /> ";
-        }
+        
     }
     //zum Bremsen
     public function bremsen($aenderung) {
