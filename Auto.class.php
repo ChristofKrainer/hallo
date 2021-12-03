@@ -11,8 +11,7 @@ abstract class Auto {
     
 
     //zum Bremsen
-    public abstract function bremsen($aenderung);
-    //zum Gasgeben
+    
     public abstract function beschleunigen($aenderung);
 
 }
