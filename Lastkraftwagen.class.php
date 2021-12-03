@@ -20,8 +20,7 @@ class Lastkraftwagen extends Auto{
         else {
             $this->setGeschwindigkeit($this->getGeschwindigkeit() - $aenderung);
         }
-        echo "Die aktuelle Geschwindigkeit des LKW beträgt "
-            .$this->getGeschwindigkeit() ."<br />";
+      
     }
 }
 ?>
